@@ -50,8 +50,9 @@ int main(){
 		if (outFile.is_open()){
 			for(int i=0;i<repetition;i++){
 
-				outFile<<inputStr<<",";
-
+				outFile<<inputStr;
+				if(i<repetition-1)
+					outFile<<",";
 				} // end for
 			outFile<<std::endl;			
 			} // end if
