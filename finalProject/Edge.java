@@ -19,7 +19,7 @@ public class Edge implements Cloneable{
 			return new Edge(v1Clone,v2Clone);}
 		catch(Exception e){
 			// We'll never end up here, since every Edge will already have checked for the exception in the constructor
-			return this;	
+			return this;
 		}
 
 	} // end clone
@@ -33,8 +33,8 @@ public class Edge implements Cloneable{
 	}
 
 	public Edge(Vertex a,Vertex b) throws SameVertex{
-		// Ensure that the x and y coordinates of the vertices aren't the same
-		if(a.getX()!=b.getX() && a.getY()!=b.getY()){
+		// Ensure that the x and y coordinates of the vertices aren't both the same
+		if(a.getX()!=b.getX() || a.getY()!=b.getY()){
 			this.V1 = a;
 			this.V2 = b;
 		} // end if
