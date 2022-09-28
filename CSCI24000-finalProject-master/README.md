@@ -1,3 +1,7 @@
 # Chromatic Polynomial Solver
 
-For a history of the project, see [placeholder for pdf]. The UML can be seen at https://cs.iupui.edu/~ryeades/FinalProject.html and the documentation is found in Algorithm.md. Use ChromPolyGraph.jar to let your grandma easily run the program.
+Reason for this project: I created this project as a final project for a course. The course was the second of a two-part series taught on basic programming principles. This project demonstrates my thorough knowledge of Object-Oriented-Design principles and how that can be implemented using the Java language.  
+
+Documentation: Algorithm.md, https://cs.iupui.edu/~ryeades/FinalProject.html
+
+Running the program: ChromPolyGraph.jar
