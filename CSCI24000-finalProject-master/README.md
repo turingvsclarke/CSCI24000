@@ -7,3 +7,5 @@ Documentation: Algorithm.md(https://github.com/turingvsclarke/CSCI24000/blob/mai
 UML: https://cs.iupui.edu/~ryeades/FinalProject.html
 
 Running the program: ChromPolyGraph.jar
+
+See the program run: 
